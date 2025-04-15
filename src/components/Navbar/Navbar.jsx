@@ -31,8 +31,9 @@ const Navbar = () => {
       {/* <li>Home</li> */}
       <NavLink to="/">Home</NavLink>
       <NavLink to="/comment">Comment</NavLink>
+      <NavLink to="/posts">Posts</NavLink>
       {/* <li>About</li> */}
-      <li>Contact</li>
+      {/* <li>Post</li> */}
     </ul>
   </div>
   <div className="navbar-end">
